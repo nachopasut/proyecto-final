@@ -1,0 +1,30 @@
+footer{
+    background:$color-footer;
+    color: white;
+        .divgrande{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 1rem;
+            align-items: center;
+        
+            
+                .contacto{
+                    font-weight: 500;
+                        p{
+                            text-align: center;
+                            font-size: 1.1rem;
+                        
+                        }
+                }
+                .redesfull{
+                    .redescontainer{
+                        display: flex;
+                   
+                        .redes{
+                            width: 70px;
+                            
+                        }
+                    }
+                }
+        }
+}

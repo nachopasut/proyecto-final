@@ -1,0 +1,273 @@
+#buscador {
+  background: linear-gradient(90deg, rgb(238, 231, 231) 0%, rgb(155, 146, 146) 100%);
+}
+#buscador li {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.titulo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.Definicion {
+  font-family: "REM", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  border: solid black;
+}
+
+#pcr {
+  height: 450px;
+}
+
+footer {
+  background: black;
+  color: white;
+}
+footer .divgrande {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  align-items: center;
+}
+footer .divgrande .contacto {
+  font-weight: 500;
+}
+footer .divgrande .contacto p {
+  text-align: center;
+  font-size: 1.1rem;
+}
+footer .divgrande .redesfull .redescontainer {
+  display: flex;
+}
+footer .divgrande .redesfull .redescontainer .redes {
+  width: 70px;
+}
+
+.separador {
+  border-width: 10px;
+}
+
+.cards-grid {
+  display: flex;
+  grid-gap: 80px;
+  padding-bottom: 60px;
+}
+
+.flip-card {
+  width: 600px;
+  height: 404px;
+  perspective: 2000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0);
+  border-radius: 28px;
+  transition: all 550ms cubic-bezier(0.1, 0.22, 0.8, 1.13);
+  transform-style: preserve-3d;
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flip-card-back {
+  font-size: 1.25rem;
+  text-align: center;
+  display: flex;
+  place-items: center;
+  padding: 32px;
+  background-color: grey;
+  transform: rotateY(180deg);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(-180deg);
+}
+
+.imagenflete {
+  width: 100%;
+  height: 100%;
+}
+
+.imagenmedida {
+  width: 100%;
+  height: 100%;
+}
+
+.carlos {
+  width: 100%;
+  height: 100%;
+}
+
+.DefinicionServ {
+  text-align: center;
+  font-size: 20px;
+  border: solid grey;
+}
+
+.titulos-para-servicios {
+  text-align: center;
+  font-size: 30px;
+  border: solid orange;
+  font-family: "Merriweather", serif;
+}
+
+.bodycocina {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  max-width: 700px;
+  flex-wrap: wrap;
+}
+.container .card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.card img {
+  width: 100%;
+  height: 510px;
+}
+
+.cocinascont {
+  text-align: center;
+}
+
+.contactomain {
+  margin-top: 30px;
+}
+
+.maps {
+  display: flex;
+  align-items: center;
+}
+
+.comollegar {
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .flip-card {
+    width: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .DefinicionServ {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 320px) {
+  .Definicion {
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+  }
+  .flip-card {
+    width: 200px;
+  }
+  .cards-grid {
+    width: 320px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .DefinicionEnserv {
+    font-size: 1rem;
+  }
+  .flip-card-back {
+    padding: 5px;
+  }
+  .imagenflete {
+    height: 100%;
+  }
+  .imagenmedida {
+    height: 100%;
+  }
+  .carlos {
+    height: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .cards-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .divgrande {
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  #pcr {
+    height: 300px;
+  }
+  #muebledecocinapiso {
+    height: 300px;
+  }
+  #muebledecocina {
+    height: 300px;
+  }
+  .imagenflete {
+    height: 100%;
+  }
+  .imagenmedida {
+    height: 100%;
+  }
+  .carlos {
+    height: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .imagenflete {
+    height: 300px;
+  }
+  .imagenmedida {
+    height: 300px;
+  }
+  .carlos {
+    height: 300px;
+  }
+  #pcr {
+    height: 300px;
+  }
+  #muebledecocinapiso {
+    height: 300px;
+  }
+  #muebledecocina {
+    height: 300px;
+  }
+
+}/*# sourceMappingURL=main.css.map */
