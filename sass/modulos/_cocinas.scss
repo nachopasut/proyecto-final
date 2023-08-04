@@ -17,7 +17,7 @@
         margin: 20px;
         border-radius: 6px;
         overflow: hidden;
-        background-color: white;
+        background: $color-background-card;
         box-shadow: 0px 1px 10px rgba(0,0,0,1);
         cursor: default;
         transition: all 400ms ease;
@@ -33,4 +33,11 @@
 }
 .cocinascont{
     text-align: center;
+    color: white;
+}
+.DefinicionCocina{
+    color: white;
+    font-size: 20px;
+    padding:20px;
+    margin-top: 10px;
 }

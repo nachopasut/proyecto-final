@@ -1,32 +1,26 @@
-@mixin Titulomain(){ 
-    .titulo{
+.titulo{
         margin-top: 20px;
         text-align: center;
+        color: white;
     }
   
-}
-@mixin DefinicionYimg(){
+
     .Definicion{
         font-family: 'REM', sans-serif;
         font-size: 1.2rem;
-    text-align: center;
-    border: solid black;
+    text-align: left;
+color: white;
+margin: 8px;
+    }
+    
     #pcr{
         height: 450px ;
     }
-    }
-}
-
-.titulo{
-    @include Titulomain();
-}
-
-.Definicion #pcr{
-@include DefinicionYimg();
-
-}
 body{
-    background-color: orange;
+    background: $color-body;
 }
+
+
+
 
 

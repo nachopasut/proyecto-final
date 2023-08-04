@@ -1,53 +1,43 @@
 #buscador {
-  background: linear-gradient(90deg, rgb(238, 231, 231) 0%, rgb(155, 146, 146) 100%);
+  background-color: black;
 }
 #buscador li {
   color: red;
   font-size: 1.5rem;
 }
 
+#colornavbar {
+  color: white;
+}
+
 .titulo {
   margin-top: 20px;
   text-align: center;
+  color: white;
 }
 
 .Definicion {
   font-family: "REM", sans-serif;
   font-size: 1.2rem;
-  text-align: center;
-  border: solid black;
+  text-align: left;
+  color: white;
+  margin: 8px;
 }
 
 #pcr {
   height: 450px;
 }
 
-footer {
-  background: black;
-  color: white;
-}
-footer .divgrande {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 1rem;
-  align-items: center;
-}
-footer .divgrande .contacto {
-  font-weight: 500;
-}
-footer .divgrande .contacto p {
-  text-align: center;
-  font-size: 1.1rem;
-}
-footer .divgrande .redesfull .redescontainer {
-  display: flex;
-}
-footer .divgrande .redesfull .redescontainer .redes {
-  width: 70px;
+body {
+  background: linear-gradient(180deg, rgba(245, 128, 33, 0.9882352941) 0%, rgb(38, 17, 2) 100%);
 }
 
 .separador {
   border-width: 10px;
+}
+
+.titulo {
+  color: rgb(255, 221, 0);
 }
 
 .cards-grid {
@@ -92,7 +82,7 @@ footer .divgrande .redesfull .redescontainer .redes {
   display: flex;
   place-items: center;
   padding: 32px;
-  background-color: grey;
+  background: rgba(245, 128, 33, 0.7647058824);
   transform: rotateY(180deg);
 }
 
@@ -118,14 +108,42 @@ footer .divgrande .redesfull .redescontainer .redes {
 .DefinicionServ {
   text-align: center;
   font-size: 20px;
-  border: solid grey;
+  color: white;
 }
 
 .titulos-para-servicios {
   text-align: center;
   font-size: 30px;
-  border: solid orange;
-  font-family: "Merriweather", serif;
+  color: rgb(255, 221, 0);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.maps {
+  display: flex;
+  border: solid black;
+  text-align: center;
+}
+
+.comollegar {
+  color: white;
+  text-align: center;
+}
+
+.definicion-comollegar {
+  padding-left: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.contenidomaps {
+  background-color: rgba(196, 101, 24, 0.9882352941);
+}
+
+.DefinicionUb {
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .bodycocina {
@@ -148,7 +166,7 @@ footer .divgrande .redesfull .redescontainer .redes {
   margin: 20px;
   border-radius: 6px;
   overflow: hidden;
-  background-color: white;
+  background: rgba(245, 128, 33, 0.7647058824);
   box-shadow: 0px 1px 10px rgb(0, 0, 0);
   cursor: default;
   transition: all 400ms ease;
@@ -166,19 +184,49 @@ footer .divgrande .redesfull .redescontainer .redes {
 
 .cocinascont {
   text-align: center;
+  color: white;
+}
+
+.DefinicionCocina {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 10px;
 }
 
 .contactomain {
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-right: 10px;
 }
 
-.maps {
+.DefinicionCont {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+}
+
+footer {
+  background: black;
+  color: white;
+}
+footer .divgrande {
   display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
   align-items: center;
 }
-
-.comollegar {
+footer .divgrande .contacto {
+  font-weight: 500;
+}
+footer .divgrande .contacto p {
   text-align: center;
+  font-size: 1.1rem;
+}
+footer .divgrande .redesfull .redescontainer {
+  display: flex;
+}
+footer .divgrande .redesfull .redescontainer .redes {
+  width: 70px;
 }
 
 @media (max-width: 650px) {
@@ -269,5 +317,4 @@ footer .divgrande .redesfull .redescontainer .redes {
   #muebledecocina {
     height: 300px;
   }
-
 }/*# sourceMappingURL=main.css.map */

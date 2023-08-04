@@ -1,8 +1,27 @@
 //Ubicacion
 .maps{
     display: flex;
-    align-items: center;
+    border: solid black;
+text-align: center
 }
 .comollegar{
+color: white;
 text-align: center;
+}
+.definicion-comollegar{
+  padding-left: 20px;
+  color: white;
+  font-size: 20px;
+}
+.contenidomaps{
+  background-color:#c46518fc;  
+}
+.DefinicionUb{
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px
+}
+.titulo{
+
 }
