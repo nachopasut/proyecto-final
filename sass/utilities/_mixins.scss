@@ -47,3 +47,99 @@
       }
       
 }
+
+@mixin mediaqueri{
+ @media(max-width:650px){
+        .flip-card{
+        width: 400px;
+        }
+    }
+    @media (max-width :768px){
+        .DefinicionServ{
+        font-size: 1rem;
+        }
+    }
+    
+    
+    @media (max-width:320px){
+        .Definicion{
+            height: 100%;
+            flex-direction: column;
+            width: 100%;
+            }
+            .flip-card{
+                width: 200px;
+                }
+                .cards-grid{
+                width: 320px;
+                flex-direction: column;
+                justify-content: center;
+                }
+                .DefinicionEnserv{
+                font-size: 1rem;
+                }
+                .flip-card-back{
+                padding: 5px;
+                }
+                .imagenflete{
+                height: 100%;
+            }
+            
+            .imagenmedida{
+                height: 100%;
+            }
+            .carlos{
+                height: 100%;
+            }
+            .imagenflete{
+                height: 300px;
+            }
+            
+            .imagenmedida{
+                height: 300px;
+            }
+            .carlos{
+                height: 300px;
+            }
+            #pcr{
+                height: 300px; 
+            }
+            #muebledecocinapiso{
+                height:300px;
+            }
+        #muebledecocina{
+        height: 300px;
+            }
+    }
+    
+    @media (max-width: 992px) {
+    .cards-grid{
+    flex-direction: column;
+    align-items: center;
+    }
+        .divgrande {
+            flex-direction: column;
+        }
+        }
+        @media (max-width:480px){
+            #pcr{
+                height: 300px 
+            }
+            #muebledecocinapiso{
+                height:300px;
+            }
+    #muebledecocina{
+        height: 300px;
+    }
+    .imagenflete{
+        height: 100%;
+    }
+    
+    .imagenmedida{
+        height: 100%;
+    }
+    .carlos{
+        height: 100%;
+    }
+        }
+}
